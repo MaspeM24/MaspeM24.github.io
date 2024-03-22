@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta name="author" content="pemas lubis">
+    <meta name="description" content="Hi Human, Gwej Keren ga?">
+    <meta name="og:title" content="Pemas Lubis 😎">
+    <meta name="og:description" content="Hi Human, Gwej Keren ga?">
+
+    <title>Pemas Lubis</title>
+    <link rel="icon" href="assets/img/p_icon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/ac244a1a1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- &----- NAV ----- -->
+    <nav>
+        <div class="logo">
+            <a href="#"><h1>pema<span>s.</span></h1></a>
+        </div>
+
+        <ul>
+            <li><a href="#home" draggable="false" class="active">Home</a></li>
+            <li><a href="#about" draggable="false">About</a></li>
+            <li><a href="#works" draggable="false">Works</a></li>
+            <li><a href="#hi" draggable="false">Hi</a></li>
+            <li><a href="#contact" draggable="false">Contact</a></li>
+        </ul>
+
+        <a onclick="hamburgerAktif()" class="hamburger">
+            <hr>
+            <hr>
+            <hr>
+        </a>
+    </nav>
+    <div class="hamburger_menu" onclick="hamburgerAktif()"  >
+        <div class="menu">
+            <ul>
+                <li><a onclick="hamburgerAktif()" href="#home" draggable="false">Home</a></li>
+                <li><a onclick="hamburgerAktif()" href="#about" draggable="false">About</a></li>
+                <li><a onclick="hamburgerAktif()" href="#works" draggable="false">Works</a></li>
+                <li><a onclick="hamburgerAktif()" href="#hi" draggable="false">Hi</a></li>
+                <li><a onclick="hamburgerAktif()" href="#contact" draggable="false">Contact</a></li>
+            </ul>
+
+            <div>
+                <div class="sosial_nav">
+                    <a href="https://wa.me/6282131819190?text=Hi%20" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/maspem_24?igsh=MWFtczdjd2ZqdjEwbA==" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                
+                <hr>
+                <p>Website Created by Pemas Lubis</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- &----- HOME ----- -->
+    <section id="home" class="blur_page">
+        <div class="container">
+            <div class="container_home">
+                <div class="nama_logo">
+                    <h1>Pemas</h1>
+                </div>
+                <div class="nama">
+                    <h1 class="title_sec">HELLO!<br>MY NAME IS<br>PEMAS <i class="fa-regular fa-face-grin-wink"></i></h1>
+                    <p>I provide services for frontend developers of all types of websites with quality programme code.</p>
+                </div>
+                <div class="card_container_home">
+                    <div class="card">
+                        <div>
+                            <h1>I'm a<br>Frontend Developer</h1>
+                            <span></span>
+                            <p>I am able to implement user interface design into HTML, CSS, and JavaScript code. This includes creating layouts, navigation, forms, and other interactive elements.</p>
+                            <div>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div>
+                        <p>Scroll down</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- &----- ABOUT ----- -->
+    <section id="about" class="blur_page">
+        <div class="container">
+            <div class="container_about">
+                <div>
+                    <div class="judul">
+                        <h1 class="title_sec">ABOUT<br>ME <i class="fa-solid fa-user-tie"></i></h1>
+                    </div>
+                    <p>Hi, my name is Pemas Lubis. I think it's a pretty cool name, but do I deserve it? Well, whatever it is, I will try to fulfil my parents' expectations, <strong>no pressure.</strong></p>
+                    <div class="button">
+                        <a class="btn_about active_btn" onclick="openTab('skills')" draggable="false">Skills</a>
+                        <a class="btn_about" onclick="openTab('education')" draggable="false">Education</a>
+                    </div>
+                </div>
+                <div class="keterangan_about">
+                    <div class="content_tab active_content" id="skills">
+                        <div>
+                            <div>
+                                <i class="fa-brands fa-html5"></i>
+                                <span>
+                                    <h3>HTML</h3>
+                                    <p>HTML structures web pages.</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>
+                                    <h3>CSS</h3>
+                                    <p>CSS, is a stylesheet language.</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <i class="fa-brands fa-js"></i>
+                                <span>
+                                    <h3>JS</h3>
+                                    <p>JavaScript, enables interactive.</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_tab" id="education">
+                        <div>
+                            <div>
+                                <img src="assets/img/sd.png">
+                                <span>
+                                    <h3>SD</h3>
+                                    <p>I chose primary school because I'm cool</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="assets/img/mts.png">
+                                <span>
+                                    <h3>MTS</h3>
+                                    <p>Because I'm kind and not arrogant, I'm deepening my religion.</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="assets/img/db.png">
+                                <span>
+                                    <h3>SMK</h3>
+                                    <p>I call it cool and brave</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="assets/img/unhasy.png">
+                                <span>
+                                    <h3>UNIVERSITAS</h3>
+                                    <p>UKT Rp 2.650.000 via VA BSI</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- &----- WORK ----- -->
+    <section id="works" class="blur_page">
+        <div class="container">
+            <div class="container_works">
+                <div class="judul">
+                    <h1 class="title_sec">CHECK OUT MY WORKS <i class="fa-solid fa-fire"></i></h1>
+                </div>
+                <div>
+                    <div class="card">
+                        <a href="https://getgitship.github.io" target="_blank" class="container_content_card">
+                            <div class="preview">
+                                <img src="assets/img/bou1.PNG" alt="preview">
+                                <img src="assets/img/bou2.PNG" alt="preview">
+                                <img src="assets/img/bou3.PNG" alt="preview">
+                            </div>
+                            <div class="work_name">
+                                <h1>Both OfUs</h1>
+                                <p>My first website</p>
+                            </div>
+                        </a>
+                        <a href="https://getgitship.github.io" target="_blank" class="keterangan">
+                            <h1>Both OfUs</h1>
+                            <p>Is my first website, this website describes me, you, and both of us.</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="https://kisahkertas.github.io" target="_blank" class="container_content_card">
+                            <div class="preview">
+                                <img src="assets/img/kk1.jpg" alt="preview">
+                            </div>
+                            <div class="work_name">
+                                <h1>Kisah Kertas</h1>
+                                <p>Online bookstore prototype</p>
+                            </div>
+                        </a>
+                        <a href="https://kisahkertas.github.io" target="_blank" class="keterangan">
+                            <h1>Kisah Kertas</h1>
+                            <p>I made this prototype to fulfil the assignment of the human and computer interaction course (for smartphones).</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- &----- hi ----- -->
+    <section id="hi" class="blur_page">
+        <div class="container">
+            <div class="container_hi">
+                <div class="judul">
+                    <h1 class="title_sec">HI YOU THERE</h1>
+                </div>
+                <div class="switch_contoler">
+                    <select id="quality">
+                        <option value="144p">144p</option>
+                        <option value="240p">240p</option>
+                        <option value="480p">480p</option>
+                        <option value="720p">720p</option>
+                        <option value="1080p">1080p</option>
+                    </select>
+                </div>
+                <div class="hasil_hi">
+                    <div class="container_hasil">
+                        <img src="assets/img/144p.png">
+                        <img src="assets/img/240p.png">
+                        <img src="assets/img/480p.png">
+                        <img src="assets/img/720p.png">
+                        <img src="assets/img/1080p.png">
+                    </div>
+                </div>
+                <div class="description_hi">
+                    <p>"Hi" I greet you, dear readers, and thank you for visiting my website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- &----- Contact ----- -->
+    <section id="contact" class="blur_page">
+        <div class="container">
+            <div class="container_contact">
+                <div class="judul">
+                    <h1 class="title_sec">DON'T<br>HESITATE TO<br>CONTACT<br>ME <i class="fa-regular fa-paper-plane"></i></h1>
+                </div>
+                <div class="sosial">
+                    <div class="sosial_container">
+                        <a href="https://wa.me/6282131819190?text=Hi%20" target="_blank" class="icon whatsapp">
+                            <span class="tooltip">Whatsapp</span>
+                            <span><i class="fa-brands fa-whatsapp"></i></span>
+                        </a>
+                        <a href="https://www.instagram.com/maspem_24?igsh=MWFtczdjd2ZqdjEwbA==" target="_blank" class="icon instagram">
+                            <span class="tooltip">Instragram</span>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <a href="assets/cv.pdf" target="_blank" class="download_cv">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        <p>Download my CV</p>
+                    </a>
+                </div>
+                <div class="message">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="message_title_right">
+                            <h2>Get in touch</h2>
+                            <hr>
+                        </div>
+
+                        <input type="hidden" name="access_key" value="2b04c175-0837-48fa-b13d-c9b9a0da4428">
+
+                        <input type="text" name="name" placeholder="Your Name" class="contact_input" required>
+
+                        <input type="email" name="email" placeholder="Your Email" class="contact_input" required>
+
+                        <textarea name="message" placeholder="Your Message" class="contact_input" required></textarea>
+
+                        <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
