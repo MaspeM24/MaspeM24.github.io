@@ -2,7 +2,7 @@
 
 Selamat datang di portofolio saya! Perkenalkan nama saya Pemas Lubis Eko Satriyo, Di sini Anda dapat menemukan proyek-proyek yang telah saya kerjakan serta informasi tentang saya sebagai seorang <strong>Frontend Developer</strong>. Portofolio ini dibangun untuk menunjukkan keterampilan dan pengalaman saya dalam <strong>pengembangan antarmuka pengguna dan desain web</strong>.
 
-Anda dapat mengunjungi portofolio saya di sini: <a href="maspem24.github.io" target="_blank">maspem24.github.io</a>
+Anda dapat mengunjungi portofolio saya di sini: <a href="https://maspem24.github.io" target="_blank">maspem24.github.io</a>
 
 ✨ Fitur
 <ul>
