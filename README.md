@@ -11,12 +11,14 @@ Anda dapat mengunjungi portofolio saya di sini: <a href="maspem24.github.io" tar
   <li><strong>Works</strong>: Daftar proyek-proyek yang telah saya kerjakan.</li>
   <li><strong>Contact</strong>: Formulir kontak atau informasi untuk menghubungi saya.</li>
 </ul>
+
 🛠️ Teknologi yang Digunakan
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
   <li>JavaScript</li>
 </ul>
+
 📞 Kontak
 
 Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut, Anda dapat menghubungi saya melalui:
